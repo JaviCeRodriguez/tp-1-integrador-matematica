@@ -60,11 +60,12 @@ def XNOR(a,b):
         return 0
 
 
-print(AND(0, 1))   # 0
-print(OR(0, 1))    # 1
-print(NOT(0))      # 1
-print(XOR(1, 1))   # 0
-print(NAND(1, 1))  # 0
-print(NOR(0, 0))   # 1
-print(XNOR(1, 1))  # 1
-print(IMPL(1, 0))  # 0
+if __name__ == "__main__":
+    print(AND(0, 1))   # 0
+    print(OR(0, 1))    # 1
+    print(NOT(0))      # 1
+    print(XOR(1, 1))   # 0
+    print(NAND(1, 1))  # 0
+    print(NOR(0, 0))   # 1
+    print(XNOR(1, 1))  # 1
+    print(IMPL(1, 0))  # 0
