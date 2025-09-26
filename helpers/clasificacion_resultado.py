@@ -12,6 +12,8 @@ def evaluar_tipo(resultado):
     
     # Extraemos todos los valores de la última columna
     valores_finales = [fila[-1] for fila in filas_de_datos]
+
+    print('test', valores_finales)
     
     # Inicializamos contadores para 1s y 0s
     hay_uno = False
