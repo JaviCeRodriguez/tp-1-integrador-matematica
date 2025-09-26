@@ -1,10 +1,3 @@
-""" - Usar resultado de evaluación para formatear la salida en una tabla.
-    - Se acepta una matriz que tiene en su primera fila el encabezado. Las subsiguientes son enteros 0 y 1.
-    - Acá libre albedrío para formatear la salida con un print.
-    - Puede ser útil el uso de un for.
-    - Recurso para formatear: Python - Output Formatting"""
-
-
 def imprimir_tabla(tabla):
     if not tabla:
         print("La tabla está vacía.")
@@ -45,15 +38,16 @@ def imprimir_tabla(tabla):
         print(linea_fila[:-1])
     
 
-resultados_prueba = [
-    ['p', 'q', 'p->q'],
-    [1, 1, 1],
-    [1, 0, 0],
-    [0, 1, 1],
-    [0, 0, 1]
-]
+if __name__ == "__main__":
+    resultados_prueba = [
+        ['p', 'q', 'p->q'],
+        [1, 1, 1],
+        [1, 0, 0],
+        [0, 1, 1],
+        [0, 0, 1]
+    ]
 
-print("Tabla de verdad para la proposición: p -> q")
-imprimir_tabla(resultados_prueba)
+    print("Tabla de verdad para la proposición: p -> q")
+    imprimir_tabla(resultados_prueba)
 
-print("\n" + "="*40 + "\n")
+    print("\n" + "="*40 + "\n")
