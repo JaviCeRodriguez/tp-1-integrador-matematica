@@ -1,5 +1,5 @@
 
-from op_booleanas import *
+from helpers.op_booleanas import *
 
 OPERACIONES = {
     "^": AND,
