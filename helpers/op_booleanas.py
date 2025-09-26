@@ -30,6 +30,13 @@ def IMPL(a,b):
         return 0
     else:
         return 1
+    
+def XIMPL(a,b):
+    validador(a,b)
+    if a == b:
+        return 1
+    else:
+        return 0
 
 def NOR(a,b):
     validador(a,b)
