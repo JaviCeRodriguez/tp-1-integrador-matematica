@@ -3,7 +3,7 @@
 Permitan al usuario ingresar una proposición compuesta (por ejemplo, p∨¬p, p∧¬p o p⇒q).
 El programa debe generar la tabla de verdad y clasificarla como tautología, contradicción o contingencia según corresponda
 
-[!demo](image.png)
+![demo](image.png)
 
 ## Flujo de funcionamiento del programa
 
